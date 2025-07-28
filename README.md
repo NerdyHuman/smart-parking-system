@@ -48,6 +48,11 @@ A simple and functional smart parking system made using **HTML**, **CSS**, and *
 📧 [pulkitparmar09@gmail.com](mailto:pulkitparmar09@gmail.com)  
 🌐 [linkedin.com/in/pulkit-parmar-264728305](https://linkedin.com/in/pulkit-parmar-264728305)
 
+☕ Support Me
+
+If you found this helpful, you can support my work here:  
+[Buy Me a Coffee](https://buymeacoffee.com/geekypulkit)
+
 ---
 
 ## 📁 How to Run
