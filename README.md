@@ -1,32 +1,56 @@
-Smart Parking System
-This is a basic parking management system built using HTML, CSS, and JavaScript. It was made as a small project to learn how to manage dynamic data in the browser and simulate real-life parking logic.
+# 🅿️ Smart Parking System
 
-The system lets you manage up to 20 parking slots. When a car is added, it stores the entry time, and once removed, it calculates how long it was parked and the total cost (₹50/hour). All timings are stored locally, and the layout is kept clean and simple.
+A simple and functional smart parking system made using **HTML**, **CSS**, and **JavaScript**. This was built as a hands-on learning project to simulate a real-world parking lot management system.
 
-Features
-20 parking slots available
-Add a vehicle to a slot with timestamp
-Remove vehicle and calculate total cost
-Logs entry and exit times
-Cost calculated at ₹50/hour
-Data stored temporarily in browser memory (can be extended to file or backend)
-Simple responsive interface
+## 📌 Project Highlights
 
+- 🚗 20 parking slots
+- ⏱️ Tracks entry and exit time of each vehicle
+- 💸 Calculates parking cost (₹50/hour)
+- 📂 Stores parking data in browser memory
+- 📋 View live updates of parked slots
+- ✅ Fully frontend-based – no backend required
 
- How It Works
-Select a slot and click "Park Vehicle".
-The system logs the time and marks it as occupied.
-When the vehicle is removed, it calculates the time difference and cost.
-Everything runs in-browser using vanilla JavaScript.
-Future Improvements (if I ever get to it )
-Export logs to file or connect to a real backend
+---
 
-Add license plate input for better tracking
-Login for admin view
-Store records permanently
+## 💡 How It Works
 
-About Me
-Pulkit Parmar
-Student | Developer | Tech & DIY Enthusiast
-Email: pulkitparmar09@gmail.com
+1. Click on an empty slot to **park a vehicle**.
+2. The system stores the **entry timestamp**.
+3. When removing the vehicle, the system:
+   - Captures **exit time**
+   - Calculates **total hours parked**
+   - Multiplies it by ₹50/hour
+4. Logs are visible and refresh automatically.
+
+---
+
+## 📦 Tech Used
+
+- HTML
+- CSS (basic styling, responsive)
+- JavaScript (vanilla – no libraries)
+
+---
+
+## 🚀 Future Plans
+
+- Allow user to enter vehicle number
+- Export logs to CSV or JSON
+- Add a backend to store history
+- Login/Authentication for admin
+
+---
+
+## 🧑‍💻 Developed By
+
+**Pulkit Parmar**  
+📧 [pulkitparmar09@gmail.com](mailto:pulkitparmar09@gmail.com)  
+🌐 [linkedin.com/in/pulkit-parmar-264728305](https://linkedin.com/in/pulkit-parmar-264728305)
+
+---
+
+## 📁 How to Run
+
+Just open the `index.html` file in any browser — no installation needed!
 
